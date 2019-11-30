@@ -1,1 +1,51 @@
 # git-test
+user.name=Kang He
+user.email=kangh@axis.com
+alias.lg1=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+alias.lg2=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+alias.lg3=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(dim white)Author   :%an%C(reset)%n''          %C(dim white)Committer:%cn, %cd%C(reset)%n''          %C(white)%s%C(reset)' --all
+alias.lg=!git lg1
+alias.amend=commit --amend
+alias.amendf=commit --amend --no-edit
+alias.br=branch
+alias.ci=commit
+alias.co=checkout
+alias.cp=cherry-pick
+alias.d=diff
+alias.ds=diff --staged
+alias.l=log
+alias.sa=stash apply
+alias.sh=show
+alias.ss=stash save
+alias.st=status
+color.ui=auto
+color.branch.current=yellow reverse
+color.branch.local=yellow
+color.branch.remote=green
+color.status.added=yellow
+color.status.changed=green
+color.status.untracked=cyan
+color.diff.meta=yellow
+color.diff.frag=magenta bold
+color.diff.commit=yellow bold
+color.diff.old=red bold
+color.diff.new=green bold
+color.diff.whitespace=red reverse
+color.diff-highlight.oldnormal=red bold
+color.diff-highlight.oldhighlight=red bold 52
+color.diff-highlight.newnormal=green bold
+color.diff-highlight.newhighlight=green bold 22
+push.default=current
+rebase.autosquash=true
+core.attributesfile=/usr/share/atools/gitattributes
+core.gitproxy=axis-git-proxy
+init.templatedir=/usr/share/ahooks/templates
+axis.hooks.directory=/usr/share/ahooks/hooks.d
+axis.hooks.workingdirhooks=true
+http.https://github.com.proxy=http://wwwproxy.se.axis.com:3128
+http.https://git.coding.net.proxy=http://shcnproxy.sh.cn.axis.com:3128
+http.https://git.bootlin.com.proxy=http://wwwproxy.se.axis.com:3128
+http.https://git.kernel.org.proxy=http://wwwproxy.se.axis.com:3128
+url.ssh://gittools.se.axis.com:29418/mirrors/git.yoctoproject.org/poky.insteadof=git://gitreposync.se.axis.com/git_yoctoproject_org_poky
+url.ssh://gittools.se.axis.com:29418/mirrors/git.openembedded.org/meta-openembedded.insteadof=git://gitreposync.se.axis.com/git_openembedded_org_meta_openembedded
+url.ssh://gittools.se.axis.com:29418/mirrors/git.yoctoproject.org/meta-gplv2.insteadof=git://gitreposync.se.axis.com/git_yoctoproject_org_meta_gplv2​
